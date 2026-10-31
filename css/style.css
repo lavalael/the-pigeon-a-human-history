@@ -1,0 +1,129 @@
+/* template by @clkcrompton */
+
+/*To find out what each of the selectors, properties, and values below do, 
+try changing the values, saving your css, saving your html page, and refreshing
+your browser. Find more colours at https://www.w3schools.com/colors/colors_picker.asp (w3schools is ugly
+but is also full of useful resources */
+
+body {	
+	background-color: #988999;
+	width: 1350px;
+	padding-left: 50px;
+padding-right: 50px;}
+
+
+div {
+   }
+
+h1 {
+	font-family: playfair, display;
+  	font-size: 60px;
+	margin-bottom: 0px;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	text-align: center;
+	/*Try switching the colour to 000066 to see what happens.  To find new colours visit http://www.w3schools.com/tags/ref_colorpicker.asp*/
+  	color: #2f3a36;   
+}
+
+h2 {
+	font-family: playfair, display;
+	font-size: 40px;
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-bottom:10px;
+	text-align: center;
+	color: #2f3a36;   
+}
+
+h3 {
+	font-family: playfair, display;
+	font-size: 30px;
+	margin-top: 0px;
+	padding-top: 20px;
+	padding-bottom:0px;
+	text-align: center;
+	color: #2f3a36;   
+}
+h4 { font-family: Arial, sans-serif;
+	font-size:16px;
+	text-align: center;}
+
+p {	
+	font-family: Arial, sans-serif;
+	font-size:16px;
+	text-align: left;
+}
+
+img {	
+	/* Add the css to control your images here */
+	float: left;
+	height: 300px;
+	padding: 5px;
+}
+
+a {
+	color: #2f3a36;
+}
+a:hover {
+  	color: #3d524a;
+}
+
+/* Sets the highlight colour in most browsers */
+::selection {
+  background: #4DB788;
+} 
+/* Sets the highlight colour in Firefox */
+::-moz-selection {
+  	background: #4DB788;
+}
+
+[type=button] {
+	float: right;
+	height: 30px;
+	width: 90px;
+	font-family: sans-serif;
+	font-size: 15px;
+	text-align: center;
+	background: #FF9900;
+	border-radius: 7px;
+	text-decoration: none;
+	margin-bottom: 80px;
+}
+
+div#a {
+    background-color:#8fb3c7;
+	height:250px;
+	width:200px;
+
+    display: inline-block;
+
+
+}
+
+div#b {
+    background-color:#d8c6d9;
+	height:250px;
+	width:200px;
+	display: inline-block;
+}
+
+div#c {
+    background-color:#e0c36b;
+	height:250px;
+	width:200px;
+	display: inline-block;
+}
+
+
+.center-image {
+	background-color:#f8f6ec;
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    float: none;
+}
+
+/* Add the rules for elements with @class and @id attributes below */
+
+
